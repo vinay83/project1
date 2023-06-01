@@ -12,6 +12,8 @@ typedef struct video
     GstStateChangeReturn ret;
  } ele;
 
+//Hi all these are the changes
+
 static void pad_added_handler (GstElement *src, GstPad *new_pad ,GstElement *data)
 {
 	GstPadLinkReturn ret;
